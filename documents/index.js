@@ -33,10 +33,10 @@ return `
                    <td colspan="2">
                       <table>
                          <tr>
-                            <td class="title"><a href=""><img src="https://iili.io/JXIaQp.png" alt="JXIaQp.png" border="0"
+                            <td class="title"><img src="https://iili.io/JXIaQp.png" alt="JXIaQp.png" border="0"
                             style="width:70%;
                             text-align: center; 
-                            display: block;"/></a><div></td>
+                            display: block;"/><div></td>
                          </tr>
                       </table>
                    </td>
@@ -59,11 +59,11 @@ return `
                    <td >
                       <table>
                          <tr>
-                            <td ><a href="https://freeimage.host/i/JUZJtI"><img src="https://iili.io/JUZJtI.png" alt="JUZJtI.png" border="0" 
+                            <td ><img src="https://iili.io/JUZJtI.png" alt="JUZJtI.png" border="0" 
                             style="width:99%; 
                             margin: auto;"
                             />
-                           </a></td>
+                           </td>
                          </tr>
                       </table>
                    </td>

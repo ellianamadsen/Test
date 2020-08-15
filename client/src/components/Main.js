@@ -16,8 +16,7 @@ class Main extends Component {
       .then(() => axios.get('fetch-pdf', { responseType: 'blob' }))
       .then((res) => {
         const pdfBlob = new Blob([res.data], { type: 'application/pdf' });
-
-        saveAs(pdfBlob, 'WO.pdf');
+      saveAs(pdfBlob, 'WO.pdf');
       })
   }
 
