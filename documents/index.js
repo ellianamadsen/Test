@@ -11,9 +11,8 @@ module.exports = ({ wo, description }) => {
                 line-height: 1;
                 border: 2px solid black;
                 font-size: 11px;
-                font-family: 'Arial', sans-serif;
+                font-family: Arial, Helvetiva, sans-serif;
                 color: black;
-                font-weight: bold;
                 }
                 .pdf-box table {
                 width: 100%;
