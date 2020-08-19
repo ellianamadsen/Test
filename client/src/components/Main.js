@@ -5,8 +5,7 @@ import { saveAs } from "file-saver";
 class Main extends Component {
   state = {
     name: "",
-    description: "",
-    // more state variables
+    description: ""
   };
 
   handleChange = ({ target: { value, name } }) =>
@@ -29,7 +28,6 @@ class Main extends Component {
           <p className="sign" align="center">
             Make A New Work Order
           </p>
-          {/* more input tags */}
           <textarea
             className="un "
             type="text"

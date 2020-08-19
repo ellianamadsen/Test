@@ -5,6 +5,7 @@ module.exports = ({ wo, description }) => {
           <head>
              <meta charset="utf-8">
              <title>PDF Result Template</title>
+             <link href="/bower_components/arial-geo/css/arial-geo.css">
              <style>
                 .pdf-box {
                 padding-left: 5px;
