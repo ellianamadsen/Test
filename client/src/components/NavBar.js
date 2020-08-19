@@ -1,5 +1,5 @@
 import React from "react";
-import { useAuth0 } from "../react-auth0-spa";
+import { useAuth0 } from "@auth0/auth0-react";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <div>
       {!isAuthenticated && (
-        <nav class="container">
+        <nav className="container">
         <h1>PDF GENERATE</h1>
         <button onClick={() => loginWithRedirect({})}>Log in</button>
       </nav>
@@ -16,7 +16,7 @@ const NavBar = () => {
 
       {isAuthenticated && (
         <span>
-          <nav class="container">
+          <nav className="container">
             <h1>PDF GENERATE</h1>
           <button onClick={() => logout({})}>Log Out</button>
           </nav>
