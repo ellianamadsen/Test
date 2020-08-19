@@ -6,12 +6,16 @@ module.exports = ({ wo, description }) => {
              <meta charset="utf-8">
              <title>PDF Result Template</title>
              <style>
+               @font-face {
+                  font-family: myFont;
+                  src: url(../fonts/ARIAL.woff)
+               }
                 .pdf-box {
                 padding-left: 5px;
                 line-height: 1;
                 border: 2px solid black;
                 font-size: 11px;
-                font-family: Arial, Helvetiva, sans-serif;
+                font-family: myFont;
                 color: black;
                 }
                 .pdf-box table {
