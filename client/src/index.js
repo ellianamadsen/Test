@@ -5,8 +5,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import Auth0ProviderWithHistory from "./react-auth0-spa";
-import config from "./auth_config.json";
-import history from "./utils/history";
+// import config from "./auth_config.json";
+// import history from "./utils/history";
 
 // A function that routes the user to the right place
 // after login
