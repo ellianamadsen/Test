@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 body {
     background-color: #EFEFEF;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 .main {
@@ -16,7 +15,7 @@ body {
 .sign {
     padding-top: 40px;
     color: #A90404;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: bold;
     font-size: 23px;
 }
@@ -39,7 +38,7 @@ margin-bottom: 50px;
 margin-left: 46px;
 text-align: left;
 margin-bottom: 27px;
-font-family: 'Karla', sans-serif;
+font-family: 'Arial', sans-serif;
 }
 
 form.form1 {
@@ -64,7 +63,7 @@ margin-bottom: 50px;
 margin-left: 46px;
 text-align: left;
 margin-bottom: 27px;
-font-family: 'Karla', sans-serif;
+font-family: 'Arial', sans-serif;
 }
 
 

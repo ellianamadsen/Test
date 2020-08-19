@@ -5,14 +5,14 @@ module.exports = ({ wo, description }) => {
           <head>
              <meta charset="utf-8">
              <title>PDF Result Template</title>
-             <link href="/bower_components/arial-geo/css/arial-geo.css">
+             <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
              <style>
                 .pdf-box {
                 padding-left: 5px;
                 line-height: 1;
                 border: 2px solid black;
                 font-size: 11px;
-                font-family: 'Arial GEO', sans-serif;
+                font-family: 'Inter', sans-serif;
                 color: black;
                 }
                 .pdf-box table {
