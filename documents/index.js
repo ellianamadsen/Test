@@ -7,15 +7,15 @@ module.exports = ({ wo, description }) => {
              <title>PDF Result Template</title>
              <style>
                @font-face {
-                  font-family: myFont;
-                  src: url(../fonts/ARIAL.woff)
+                  font-family: 'Arial';
+                  src: url(../fonts/ARIAL.woff) format('woff')
                }
                 .pdf-box {
                 padding-left: 5px;
                 line-height: 1;
                 border: 2px solid black;
                 font-size: 11px;
-                font-family: myFont;
+                font-family: 'Arial';
                 color: black;
                 }
                 .pdf-box table {
