@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import { useAuth0 } from "./react-auth0-spa";
 
 import { Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Profile from "./components/Profile";
 import history from "./utils/history";
 import Main from './components/Main';
