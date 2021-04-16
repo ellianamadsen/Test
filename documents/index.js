@@ -13,6 +13,7 @@ return `
              font-size: 11px;
              font-family: 'Arial', sans-serif;
              color: black;
+             font-weight: bold;
              }
              .pdf-box table {
              width: 100%;
