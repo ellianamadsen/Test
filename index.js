@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, "/client/build")));
 
 app.post('/create-pdf', (req, res) => {
     pdf.create(pdfTemplate(req.body), {}).toStream((err, stream) => {
-        stream.pipe(fs.createWriteStream('./result.pdf'));
+        stream(fs.createWriteStream('./result.pdf'));
 
         if(err) {
             return res.send(Promise.reject());
